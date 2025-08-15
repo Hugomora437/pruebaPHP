@@ -5,20 +5,48 @@
 body{
 
     background-color: rgb(2, 52, 161);
+}
 
 
-
-    #container{
+ #container{
         width: 80%;
         margin: 0px auto;
-        border: 1px solid black;
+        border: 1px solid white;
     }
 
-}
+
 #header{
     height: 110px;
     background-color: #630505;
     color: white;
     text-align: center;
     line-height: 100px;
+}
+#menu{
+    height: 50px;
+    background-color: 222222;
+    color: white;
+    border-bottom: 4px solid rgb(243, 12, 12);
+    
+}
+#menu ul {
+    list-style: none;
+    text-decoration: none;
+    margin: 0px auto;
+    margin-left: 30px; 
+}  
+#menu ul li{
+    line-height: 55px;
+    float: left;
+    border-right: 1px solid white;
+}
+#menu a{
+   display: block;
+   color: white;
+   text-decoration: none;
+   padding-left: 12px;
+   padding-right: 12px;
+}
+#menu a:hover{
+    background-color: #01b1EA;
 }
