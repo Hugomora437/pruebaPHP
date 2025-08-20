@@ -4,7 +4,7 @@
 }
 body{
 
-    background-color: rgb(2, 52, 161);
+    background-color: rgb(26, 54, 114);
 }
 
 
@@ -17,11 +17,19 @@ body{
 
 #header{
     height: 110px;
-    background-color: #630505;
-    color: white;
+    background-color: #107d9e;
+    color: rgb(51, 3, 3);
     text-align: center;
     line-height: 100px;
 }
+#logo{
+    padding: 20px;
+    margin-left: 20px;
+    float: left;
+}
+#logo img{
+    height: 80px;
+    float: left;
 #menu{
     height: 50px;
     background-color: 222222;
